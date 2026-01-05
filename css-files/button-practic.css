@@ -1,0 +1,90 @@
+
+button{
+  cursor: pointer;
+  border-style: solid;
+}
+.c-cc {
+  background-color: azure;
+  width:auto;
+  margin:auto;
+  border: 2px solid red;  
+}
+.c-cc2{
+  text-align: center
+  ;
+}
+
+.button-uber{
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 120px;
+}
+
+.button-amazon{
+  background-color: rgb(255,216,20);
+  border: none;
+  height: 35px;
+  width: 200px;
+  border-radius: 50px;
+  font-size: medium;
+  
+}
+
+.button-github{
+  background-color: RGB(46,164,79);
+  font-size:medium;
+  color: white;
+  height: 35px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button-bootstrap{
+  background-color: rgb(121,82,179);
+  font-size: medium;
+  margin-right: 8px;
+  height: 35px;
+  width: 110px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+.button-bootstrap2{
+  color: rgb(57, 60, 64);
+  font-size: medium;
+  background-color: rgb(243, 243, 243);
+  margin-right: 8px;
+  height: 35px;
+  width: 110px;
+  border-width: 1px;
+  border-radius: 3px;
+
+}
+
+.button-linkedin{
+  color: white;
+  background-color: rgb(10,102,194);
+  font-size: medium;
+  border: none;
+  height: 40px;
+  width: 250px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.button-linkedin2{
+  background-color: white;
+  color: rgb(10,102,194);
+  font-size: medium;
+  font-weight: bold;
+  height: 40px;
+  margin-left: 10px;
+  width: 90px;
+  border-color: rgb(10,102,194);
+  border-width: 1px;
+  border-radius: 20px;
+  
+}

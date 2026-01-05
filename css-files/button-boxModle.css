@@ -1,0 +1,65 @@
+body{
+  margin: auto;
+  padding: 0px;
+}
+button{
+  color: white;
+  background: green;
+  border: none;
+  padding: 10px 15px;
+  font-size: medium;
+}
+.web{
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+a{
+  padding: 8px;
+}
+
+.button-back,.button-next{
+  background: rgb(232, 226, 214);
+  border: 1px solid black;
+  border-radius: 2px;
+  color: black;
+
+}
+
+.btn-stretch{
+  
+  transition: padding 0.28s;
+}
+.btn-stretch:hover{
+  padding: 15px 30px;
+
+}
+
+.btn-3d{
+  box-shadow: 0.5px 5px 2px #0b5d1e;
+
+}
+
+.btn-3d:active{
+  transform: translateY(2px);
+  box-shadow: 1px 0 0 #0b5d1e;
+
+}
+
+
+.btn1,
+.btn2,
+.btn3 {
+  margin: 10px;
+  transition: padding 0.3s;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+  padding: 10px 30px;
+}
+
