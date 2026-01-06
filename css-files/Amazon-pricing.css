@@ -1,55 +1,64 @@
-.amz{
-
-  background-color:rgb(255, 255, 255);
-  
-  height: 1000vh;
-  
+/* Parent */
+.amz {
+  min-height: 100vh;              /* ✅ full screen height */
+  display: flex;
+  justify-content: center;        /* horizontal center */
+  align-items: center;            /* vertical center */
+  background-color: white;
 }
-.amz1:hover{
+
+/* Card */
+.amz1 {
+  width: fit-content;
+  padding: 20px 25px;
+  border: 2px solid black;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.amz1:hover {
   background-color: rgb(230, 255, 255);
 }
-.amz1{
-  height: fit-content;
-  width: fit-content; 
-  border: black solid;
-  text-align: center;
-  border-width: 2px ;
-  padding: 20px 25px;
-  justify-content: center;
-  align-items: center;
-}
-.back-link{
+
+/* Link */
+.back-link {
   color: rgb(44, 54, 75);
-}
-.back-link:hover{
-  color: red;
-}
-.pricing{
-  color: green;
-  font-weight: bolder;
-  
+  text-decoration: none;
 }
 
-button{
+.back-link:hover {
+  color: red;
+}
+
+/* Price */
+.pricing {
+  color: green;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
   height: 32px;
   width: 120px;
   border-radius: 40px;
   border: none;
-  margin-left: 5px;
-  font-weight:600;
   margin: 10px;
+  font-weight: 600;
+  cursor: pointer;
 }
-button:hover{
+
+button:hover {
   opacity: 0.7;
 }
-button:active{
+
+button:active {
   opacity: 0.3;
 }
-.cart-button{
+
+.cart-button {
   background: rgba(255, 213, 0, 0.851);
 }
 
-.buy-button{
-  background:orange;
+.buy-button {
+  background: orange;
 }
-
