@@ -1,0 +1,44 @@
+.square{
+  background-color: brown;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin: 15px;
+}
+
+.circle{
+  background: #000;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.feedback,.y-music{
+  border: #000 solid 2px;
+  padding: 20px;
+  
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.y-music{
+  background-color: #312f2f;
+
+}
+
+.y-para,.y-para2{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.y-para2{
+  margin-top: 5px;
+  font-size: smaller;
+  font-weight: 200;
+  color: #b6b2b2;
+}

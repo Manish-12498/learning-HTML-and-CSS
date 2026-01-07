@@ -37,12 +37,12 @@ body {
   padding: 8px;
 }
 .video-title{
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   margin: 6px 0;
 }
 .video-author ,.video-stat{
-  font-size: 12px;
+  font-size: 15px;
   color: #606060;
 }
 
