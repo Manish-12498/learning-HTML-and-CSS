@@ -1,0 +1,14 @@
+div{
+  display: grid;
+  grid-template-columns:1fr 0.5fr 1fr ;
+  
+}
+.div1{
+  background: pink;
+}
+.div2{
+  background: rgb(132, 132, 212);
+}
+.div3{
+  background: rgb(91, 179, 179);
+}

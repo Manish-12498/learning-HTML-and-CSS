@@ -1,0 +1,8 @@
+.grid{
+  height: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  border: red solid 3px;
+}
